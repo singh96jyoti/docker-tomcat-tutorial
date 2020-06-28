@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "jyoti96singh/tomcat_deploy"            
+    registry = "jyoti96singh/tomcat_automated"            
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
